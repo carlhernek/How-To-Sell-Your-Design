@@ -1,0 +1,5 @@
+.word-card {
+  width: var(--project-div-width);
+  text-align: center;
+  font-size: 3em;
+}

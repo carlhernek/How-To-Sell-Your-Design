@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 import Words from "../words/index";
+import Headline from "../headline/index";
 
 export default function Container(props) {
   const [wordOne, setWordOne] = useState();
@@ -67,9 +68,13 @@ export default function Container(props) {
 
   return (
     <div className="container">
-      <Words props={wordOne} />
-      <Words props={wordTwo} />
-      <button onClick={() => genWord(true, true)}> button</button>
+      <div className="poster">
+        <Headline />
+        <Words props={wordOne} />
+        <p>&</p>
+        <Words props={wordTwo} />
+        <button onClick={() => genWord(true, true)}> Pitch Me!</button>
+      </div>
     </div>
   );
 }

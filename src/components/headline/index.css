@@ -1,0 +1,27 @@
+.headline {
+  width: var(--project-div-width);
+  text-align: center;
+  font-family: "Lobster", cursive;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.design {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3em;
+}
+
+.dashing {
+  position: relative;
+  width: calc(var(--project-div-width) * 0.2);
+  display: flex;
+  justify-content: space-around;
+}
+
+.dot {
+  width: 0.3em;
+  height: 0.3em;
+  border-radius: 50%;
+  background-color: var(--project-color-dark);
+}
