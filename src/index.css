@@ -1,5 +1,5 @@
 :root {
-  --background-color: white;
+  --background-color: rgb(49, 49, 49);
   --project-color: rgb(240, 240, 240);
   --project-color-dark: #202020;
   --project-div-width: 80%;
@@ -19,10 +19,20 @@ body {
 
 button {
   border: 2px solid var(--project-color-dark);
-  background-color: var(--project-color-dark);
-  color: var(--project-color);
-  border-radius: 2em;
-  width: var(--project-div-width);
+  background-color: var(--project-color);
+  color: var(--project-color-dark);
+  width: calc(var(--project-div-width) * 0.6);
   height: 2em;
   font-size: 2em;
+}
+
+button:hover {
+  background-color: var(--project-color-dark);
+  color: var(--project-color);
+}
+
+@media only screen and (orientation: landscape) and (max-width: 1024px) {
+  :root {
+    font-size: 1vw;
+  }
 }

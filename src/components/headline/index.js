@@ -8,11 +8,6 @@ export default function Headline() {
         How to sell your <br />
         <span className="design">Design</span>
       </h3>
-      <div className="dashing">
-        <span className="dot"></span>
-        <span className="dot"></span>
-        <span className="dot"></span>
-      </div>
     </div>
   );
 }

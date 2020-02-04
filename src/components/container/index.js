@@ -71,7 +71,6 @@ export default function Container(props) {
       <div className="poster">
         <Headline />
         <Words props={wordOne} />
-        <p>&</p>
         <Words props={wordTwo} />
         <button onClick={() => genWord(true, true)}> Pitch Me!</button>
       </div>
