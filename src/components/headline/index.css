@@ -1,4 +1,5 @@
 .headline {
+  color: var(--project-color-semidark);
   width: var(--project-div-width);
   text-align: center;
   font-family: "Lobster", cursive;

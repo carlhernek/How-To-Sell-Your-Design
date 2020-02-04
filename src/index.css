@@ -1,7 +1,8 @@
 :root {
   --background-color: rgb(49, 49, 49);
   --project-color: rgb(240, 240, 240);
-  --project-color-dark: #202020;
+  --project-color-dark: #2e2e2e;
+  --project-color-semidark: #b4b4b4;
   --project-div-width: 80%;
   font-size: 1vh;
 }
@@ -18,16 +19,17 @@ body {
 }
 
 button {
-  border: 2px solid var(--project-color-dark);
+  border: 2px solid var(--project-color-semidark);
   background-color: var(--project-color);
-  color: var(--project-color-dark);
-  width: calc(var(--project-div-width) * 0.6);
-  height: 2em;
+  color: var(--project-color-semidark);
+  width: calc(var(--project-div-width) * 0.4);
+  height: 3em;
   font-size: 2em;
+  text-decoration: underline;
 }
 
 button:hover {
-  background-color: var(--project-color-dark);
+  background-color: var(--project-color-semidark);
   color: var(--project-color);
 }
 
