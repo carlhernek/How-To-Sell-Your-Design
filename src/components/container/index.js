@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./index.css";
 import Words from "../words/index";
 import Headline from "../headline/index";
+import Footer from "../footer/index";
 
 export default function Container(props) {
   const [wordOne, setWordOne] = useState();
@@ -73,6 +74,7 @@ export default function Container(props) {
         <Words props={wordOne} />
         <Words props={wordTwo} />
         <button onClick={() => genWord(true, true)}> Pitch Me!</button>
+        <Footer />
       </div>
     </div>
   );

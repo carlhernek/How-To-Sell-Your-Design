@@ -2,4 +2,5 @@
   width: var(--project-div-width);
   text-align: center;
   font-size: 3em;
+  font-weight: 700;
 }

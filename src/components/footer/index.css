@@ -1,0 +1,13 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.footer p {
+  font-size: 2em;
+  color: var(--project-color-semidark);
+  margin: 0.2em 2em;
+}
