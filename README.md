@@ -1,3 +1,10 @@
+# How To Sell Your Design
+### Date
+2020/02
+### Description
+Simple one-click word generator built using React. The purpose was to learn functional components and passing props.
+
+# Create-React-App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
